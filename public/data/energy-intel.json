@@ -1,27 +1,27 @@
 {
   "status": "static-cache",
-  "generatedAt": "2026-11-21T07:20:02.900Z",
+  "generatedAt": "2026-11-21T19:24:20.439Z",
   "staticGenerated": true,
   "apiHealth": [
     {
       "name": "data.gouv.fr",
       "status": "cached-live",
-      "latency": 871
+      "latency": 732
     },
     {
       "name": "ODRE catalog",
       "status": "cached-live",
-      "latency": 2182
+      "latency": 1758
     },
     {
       "name": "ODRE methane records",
       "status": "cached-live",
-      "latency": 1407
+      "latency": 1146
     },
     {
       "name": "ODRE gas scenarios",
       "status": "cached-live",
-      "latency": 1450
+      "latency": 1125
     }
   ],
   "dataGouv": {
@@ -822,79 +822,6 @@
         }
       },
       {
-        "id": "6092189f52089a65549bacce",
-        "title": "Indicateur Mensuel Gaz Renouvelable des territoires par région",
-        "description": "Ce jeu de données présente les valeurs du ratio entre la production locale de gaz renouvelable et la consommation locale de gaz au périmètre régional. Pour calculer ce ratio : * La **production** correspond à la quantité de gaz renouvelable",
-        "organization": "Open Data Réseaux Énergies",
-        "page": "https://www.data.gouv.fr/datasets/indicateur-mensuel-gaz-renouvelable-des-territoires-par-region",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/indicateur-mensuel-gaz-renouvelable-des-territoires-par-region/",
-        "query": "renouvelable",
-        "tags": [
-          "biogaz",
-          "consommation",
-          "enr",
-          "igr",
-          "production",
-          "territoires-et-regions"
-        ],
-        "frequency": "monthly",
-        "license": "lov2",
-        "quality": 89,
-        "resources": 10,
-        "formats": [
-          "csv",
-          "json",
-          "pdf",
-          "zip",
-          "geojson",
-          "shp"
-        ],
-        "lastUpdate": "2021-04-15T12:56:24+00:00",
-        "temporalCoverage": {
-          "end": "2023-04-27",
-          "start": "2020-02-28"
-        },
-        "metrics": {
-          "dataservices": 2,
-          "discussions": 0,
-          "discussions_open": 0,
-          "followers": 0,
-          "followers_by_months": {
-            "2024-08": 0,
-            "2024-09": 0,
-            "2024-10": 0,
-            "2024-11": 0,
-            "2024-12": 0,
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0
-          },
-          "resources_downloads": 6006,
-          "reuses": 1,
-          "reuses_by_months": {
-            "2024-08": 0,
-            "2024-09": 0,
-            "2024-10": 0,
-            "2024-11": 0,
-            "2024-12": 0,
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 1,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0
-          },
-          "views": 7657
-        }
-      },
-      {
         "id": "6932de9c07fa7326ab6e941f",
         "title": "Estimation des émissions carbone des Jeux Olympiques et Paralympiques de Paris 2024 par site de construction permanente",
         "description": "Ce jeu de données est issu du «Rapport durabilité & héritage post-Jeux : axe stratégique : livrer des Jeux plus responsables : Paris 2024», crée par le Comité d'organisation des Jeux Olympiques et Paralympiques de Paris 2024, et publié en o",
@@ -1282,12 +1209,12 @@
         }
       },
       {
-        "id": "609218998c7f3ca7049baccd",
-        "title": "Indicateur Annualisé Gaz Renouvelable des territoires par epci",
-        "description": "Ce jeu de données présente les valeurs du ratio entre la production locale de gaz renouvelable et la consommation locale de gaz sur le périmètre EPCI . Pour calculer ce ratio : • La quantité de gaz renouvelable produite les 3 derniers mois ",
+        "id": "6092189b52089a65549baccd",
+        "title": "Indicateur Annualisé Gaz Renouvelable des territoires par département",
+        "description": "Ce jeu de données présente les valeurs du ratio entre la production locale de gaz renouvelable et la consommation locale de gaz sur le périmètre départemental. Pour calculer ce ratio : • La quantité de gaz renouvelable produite les **3 dern",
         "organization": "Open Data Réseaux Énergies",
-        "page": "https://www.data.gouv.fr/datasets/indicateur-annualise-gaz-renouvelable-des-territoires-par-epci",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/indicateur-annualise-gaz-renouvelable-des-territoires-par-epci/",
+        "page": "https://www.data.gouv.fr/datasets/indicateur-annualise-gaz-renouvelable-des-territoires-par-departement",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/indicateur-annualise-gaz-renouvelable-des-territoires-par-departement/",
         "query": "renouvelable",
         "tags": [
           "biogaz",
@@ -1309,13 +1236,13 @@
           "geojson",
           "shp"
         ],
-        "lastUpdate": "2021-04-15T13:34:16+00:00",
+        "lastUpdate": "2021-04-15T12:59:47+00:00",
         "temporalCoverage": {
           "end": "2023-04-27",
           "start": "2020-03-01"
         },
         "metrics": {
-          "dataservices": 1,
+          "dataservices": 2,
           "discussions": 0,
           "discussions_open": 0,
           "followers": 0,
@@ -1334,7 +1261,7 @@
             "2025-07": 0,
             "2025-08": 0
           },
-          "resources_downloads": 3535,
+          "resources_downloads": 3636,
           "reuses": 0,
           "reuses_by_months": {
             "2024-08": 0,
@@ -1351,7 +1278,7 @@
             "2025-07": 0,
             "2025-08": 0
           },
-          "views": 3663
+          "views": 3886
         }
       },
       {
@@ -1415,6 +1342,71 @@
         }
       },
       {
+        "id": "67373e228cf405ef3cc25450",
+        "title": "Plans Climats Air Energie Territoriaux (PCAET) - Normandie",
+        "description": "Un Plan Climat Air Energie Territorial (PCAET) est un projet territorial de développement durable dont la finalité est la lutte contre le changement climatique et l'adaptation du territoire. Le résultat visé est un territoire resilient, rob",
+        "organization": "Direction régionale de l'Environnement, de l'Aménagement et du Logement de Normandie",
+        "page": "https://www.data.gouv.fr/datasets/plans-climats-air-energie-territoriaux-pcaet-normandie",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/plans-climats-air-energie-territoriaux-pcaet-normandie/",
+        "query": "climat",
+        "tags": [
+          "donnees-ouvertes",
+          "inspire",
+          "pcaet",
+          "unites-administratives"
+        ],
+        "frequency": "severalTimesADay",
+        "license": "lov2",
+        "quality": 78,
+        "resources": 3,
+        "formats": [
+          "esri shapefile (shp)",
+          "wms",
+          "wfs"
+        ],
+        "lastUpdate": "2026-11-21T00:00:00+00:00",
+        "temporalCoverage": null,
+        "metrics": {
+          "dataservices": 0,
+          "discussions": 0,
+          "discussions_open": 0,
+          "followers": 0,
+          "followers_by_months": {
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0,
+            "2025-09": 0,
+            "2025-10": 0,
+            "2025-11": 0,
+            "2025-12": 0,
+            "2026-01": 0
+          },
+          "resources_downloads": 322,
+          "reuses": 0,
+          "reuses_by_months": {
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0,
+            "2025-09": 0,
+            "2025-10": 0,
+            "2025-11": 0,
+            "2025-12": 0,
+            "2026-01": 0
+          },
+          "views": 2081
+        }
+      },
+      {
         "id": "6ae13b8c81aa70bb60ad7ee3",
         "title": "Qualité de l’air dans le réseau de transport francilien",
         "description": "Ce jeu de données décrit les niveaux de pollution d'air dans les stations souterraines du réseau francilien Données Airparif Il a été crée en collaboration avec Airparif : ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACVCAIAAABO9g",
@@ -1455,80 +1447,6 @@
         }
       },
       {
-        "id": "60820e805a3ac96b5f9baccd",
-        "title": "Adhérents de Morbihan énergies",
-        "description": "Ce jeu de données contient la liste des membres du syndicat départemental des énergies Morbihan énergies (communes et intercommunalités) pour le mandat en cours. L'ensemble des communes du Morbihan sont adhérentes à notre syndicat. Les nouv",
-        "organization": "Morbihan énergies",
-        "page": "https://www.data.gouv.fr/datasets/adherents-de-morbihan-energies-1",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/adherents-de-morbihan-energies-1/",
-        "query": "energie",
-        "tags": [
-          "adherents",
-          "administration-gouvernement-finances-publiques-citoyennete",
-          "energies",
-          "morbihan",
-          "syndicat"
-        ],
-        "frequency": "unknown",
-        "license": "lov2",
-        "quality": 67,
-        "resources": 10,
-        "formats": [
-          "csv",
-          "json",
-          "octet-stream",
-          "parquet",
-          "xml",
-          "turtle",
-          "n3",
-          "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-        ],
-        "lastUpdate": "2018-10-19T08:15:13+00:00",
-        "temporalCoverage": {
-          "end": "2026-06-30",
-          "start": "2020-07-31"
-        },
-        "metrics": {
-          "dataservices": 2,
-          "discussions": 0,
-          "discussions_open": 0,
-          "followers": 0,
-          "followers_by_months": {
-            "2024-08": 0,
-            "2024-09": 0,
-            "2024-10": 0,
-            "2024-11": 0,
-            "2024-12": 0,
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0
-          },
-          "resources_downloads": 2201,
-          "reuses": 0,
-          "reuses_by_months": {
-            "2024-08": 0,
-            "2024-09": 0,
-            "2024-10": 0,
-            "2024-11": 0,
-            "2024-12": 0,
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0
-          },
-          "views": 4758
-        }
-      },
-      {
         "id": "6a3357197cbb96e4cf467336",
         "title": "Site de production d'energie renouvelable",
         "description": "Site de productions ENR autorisés et mis en services du Loiret.",
@@ -1563,78 +1481,6 @@
           "reuses": 0,
           "reuses_by_months": 0,
           "views": 961
-        }
-      },
-      {
-        "id": "658e09d36c5e5150a739c1d0",
-        "title": "Enquête climat universitaire INSPE Martinique (Data set)",
-        "description": "Ce jeu de données présente les premiers résultats de l'enquête \"Climat universitaire à l’INSPE de Martinique\", réalisée entre novembre et décembre 2023 par les étudiants de la première année du Master MEEF - mention Encadrement éducatif (Un",
-        "organization": "Maurizio",
-        "page": "https://www.data.gouv.fr/datasets/enquete-climat-universitaire-inspe-martinique-data-set",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/enquete-climat-universitaire-inspe-martinique-data-set/",
-        "query": "climat",
-        "tags": [
-          "antilles",
-          "bien-etre",
-          "climat-scolaire",
-          "climat-universitaire",
-          "etudiants",
-          "formation-des-enseignants",
-          "france",
-          "inspe",
-          "martinique",
-          "outre-mer",
-          "teacher-training",
-          "universite"
-        ],
-        "frequency": "never",
-        "license": "lov2",
-        "quality": 67,
-        "resources": 0,
-        "formats": [],
-        "lastUpdate": "2025-12-30T21:45:56.062000+00:00",
-        "temporalCoverage": {
-          "end": "2023-12-28",
-          "start": "2023-11-01"
-        },
-        "metrics": {
-          "dataservices": 0,
-          "discussions": 0,
-          "discussions_open": 0,
-          "followers": 0,
-          "followers_by_months": {
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0,
-            "2025-09": 0,
-            "2025-10": 0,
-            "2025-11": 0,
-            "2025-12": 0,
-            "2026-01": 0
-          },
-          "resources_downloads": 0,
-          "reuses": 0,
-          "reuses_by_months": {
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0,
-            "2025-09": 0,
-            "2025-10": 0,
-            "2025-11": 0,
-            "2025-12": 0,
-            "2026-01": 0
-          },
-          "views": 2015
         }
       },
       {
@@ -1776,76 +1622,12 @@
         }
       },
       {
-        "id": "5934587ca3a72968e2876c89",
-        "title": "Surveillance de la qualité de l’air de la station de Bassens",
-        "description": "En Aquitaine, AIRAQ est en charge de la surveillance de la qualité de l’air. Le dispositif mis en place permet ainsi de connaitre en permanence les concentrations relevées dans l’air ambiant. AIRAQ a souhaité s’initier dans la démarche « in",
-        "organization": "DELETED",
-        "page": "https://www.data.gouv.fr/datasets/surveillance-de-la-qualite-de-lair-de-la-station-de-bassens",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/surveillance-de-la-qualite-de-lair-de-la-station-de-bassens/",
-        "query": "qualite air",
-        "tags": [
-          "climat",
-          "mesure",
-          "particules",
-          "pollution",
-          "qualite-air"
-        ],
-        "frequency": "annual",
-        "license": "notspecified",
-        "quality": 67,
-        "resources": 3,
-        "formats": [
-          "csv"
-        ],
-        "lastUpdate": "2019-07-24T06:03:34.046000+00:00",
-        "temporalCoverage": null,
-        "metrics": {
-          "dataservices": 0,
-          "discussions": 0,
-          "discussions_open": 0,
-          "followers": 0,
-          "followers_by_months": {
-            "2024-08": 0,
-            "2024-09": 0,
-            "2024-10": 0,
-            "2024-11": 0,
-            "2024-12": 0,
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0
-          },
-          "resources_downloads": 1053,
-          "reuses": 0,
-          "reuses_by_months": {
-            "2024-08": 0,
-            "2024-09": 0,
-            "2024-10": 0,
-            "2024-11": 0,
-            "2024-12": 0,
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0
-          },
-          "views": 2654
-        }
-      },
-      {
-        "id": "5934587ea3a72968e1876c93",
-        "title": "Surveillance de la qualité de l’air de la station de Talence",
+        "id": "5934587da3a72968e1876c92",
+        "title": "Surveillance de la qualité de l’air de la station de Léognan",
         "description": "En Aquitaine, AIRAQ est en charge de la surveillance de la qualité de l’air. Le dispositif mis en place permet ainsi de connaitre en permanence les concentrations relevées dans l’air AIRAQ a souhaité s’initier dans la démarche « inventaire ",
         "organization": "DELETED",
-        "page": "https://www.data.gouv.fr/datasets/surveillance-de-la-qualite-de-lair-de-la-station-de-talence",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/surveillance-de-la-qualite-de-lair-de-la-station-de-talence/",
+        "page": "https://www.data.gouv.fr/datasets/surveillance-de-la-qualite-de-lair-de-la-station-de-leognan",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/surveillance-de-la-qualite-de-lair-de-la-station-de-leognan/",
         "query": "qualite air",
         "tags": [
           "climat",
@@ -1861,7 +1643,7 @@
         "formats": [
           "csv"
         ],
-        "lastUpdate": "2019-07-24T06:03:34.569000+00:00",
+        "lastUpdate": "2019-07-24T06:03:34.454000+00:00",
         "temporalCoverage": null,
         "metrics": {
           "dataservices": 0,
@@ -1883,7 +1665,7 @@
             "2025-07": 0,
             "2025-08": 0
           },
-          "resources_downloads": 1424,
+          "resources_downloads": 1350,
           "reuses": 0,
           "reuses_by_months": {
             "2024-08": 0,
@@ -1900,7 +1682,7 @@
             "2025-07": 0,
             "2025-08": 0
           },
-          "views": 3717
+          "views": 3130
         }
       },
       {
@@ -1980,7 +1762,7 @@
           "url",
           "csv"
         ],
-        "lastUpdate": "2026-11-21T02:09:22.417000+00:00",
+        "lastUpdate": "2026-11-21T14:09:54.022000+00:00",
         "temporalCoverage": null,
         "metrics": {
           "dataservices": 2,
@@ -2039,7 +1821,7 @@
           "url",
           "csv"
         ],
-        "lastUpdate": "2026-11-21T00:59:25.932000+00:00",
+        "lastUpdate": "2026-11-21T13:07:15.667000+00:00",
         "temporalCoverage": null,
         "metrics": {
           "dataservices": 2,
@@ -2201,71 +1983,6 @@
         }
       },
       {
-        "id": "684c4c8b45e1b1cfad52b733",
-        "title": "Lignes du Réseau de Transport d Electricite aérien de RTE d'Auvergne-Rhône-Alpes",
-        "description": "Base de données cartographique de RTE (Réseau de Transport d' Électricité) au 1/25.000. Cette base de données est constituée de quatre fichiers représentant les lignes du réseau aérien, du réseau souterrain, les postes RTE et les pylônes RT",
-        "organization": "DREAL Auvergne-Rhône-Alpes",
-        "page": "https://www.data.gouv.fr/datasets/lignes-du-reseau-de-transport-d-electricite-aerien-de-rte-dauvergne-rhone-alpes",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/lignes-du-reseau-de-transport-d-electricite-aerien-de-rte-dauvergne-rhone-alpes/",
-        "query": "electricite",
-        "tags": [
-          "auvergne-rhone-alpes",
-          "gestion-de-crise",
-          "gestion-des-crises-et-des-risques",
-          "inspire",
-          "services-dutilite-publique-et-services-publics"
-        ],
-        "frequency": "unknown",
-        "license": "notspecified",
-        "quality": 56,
-        "resources": 3,
-        "formats": [
-          "zip",
-          "wfs"
-        ],
-        "lastUpdate": "2019-06-12T11:35:09+00:00",
-        "temporalCoverage": null,
-        "metrics": {
-          "dataservices": 1,
-          "discussions": 0,
-          "discussions_open": 0,
-          "followers": 0,
-          "followers_by_months": {
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0,
-            "2025-09": 0,
-            "2025-10": 0,
-            "2025-11": 0,
-            "2025-12": 0,
-            "2026-01": 0
-          },
-          "resources_downloads": 150,
-          "reuses": 0,
-          "reuses_by_months": {
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0,
-            "2025-09": 0,
-            "2025-10": 0,
-            "2025-11": 0,
-            "2025-12": 0,
-            "2026-01": 0
-          },
-          "views": 1180
-        }
-      },
-      {
         "id": "684c4c3b45e1b1cfad52b650",
         "title": "Lignes du Réseau de Transport d Electricite souterrain de RTE d'Auvergne-Rhône-Alpes",
         "description": "Base de données cartographique de RTE (Réseau de Transport d' Électricité) au 1/25.000. Cette base de données est constituée de quatre fichiers représentant les lignes du réseau aérien, du réseau souterrain, les postes RTE et les pylônes RT",
@@ -2331,6 +2048,71 @@
             "2026-01": 0
           },
           "views": 1527
+        }
+      },
+      {
+        "id": "684c4c8b45e1b1cfad52b733",
+        "title": "Lignes du Réseau de Transport d Electricite aérien de RTE d'Auvergne-Rhône-Alpes",
+        "description": "Base de données cartographique de RTE (Réseau de Transport d' Électricité) au 1/25.000. Cette base de données est constituée de quatre fichiers représentant les lignes du réseau aérien, du réseau souterrain, les postes RTE et les pylônes RT",
+        "organization": "DREAL Auvergne-Rhône-Alpes",
+        "page": "https://www.data.gouv.fr/datasets/lignes-du-reseau-de-transport-d-electricite-aerien-de-rte-dauvergne-rhone-alpes",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/lignes-du-reseau-de-transport-d-electricite-aerien-de-rte-dauvergne-rhone-alpes/",
+        "query": "electricite",
+        "tags": [
+          "auvergne-rhone-alpes",
+          "gestion-de-crise",
+          "gestion-des-crises-et-des-risques",
+          "inspire",
+          "services-dutilite-publique-et-services-publics"
+        ],
+        "frequency": "unknown",
+        "license": "notspecified",
+        "quality": 56,
+        "resources": 3,
+        "formats": [
+          "zip",
+          "wfs"
+        ],
+        "lastUpdate": "2019-06-12T11:35:09+00:00",
+        "temporalCoverage": null,
+        "metrics": {
+          "dataservices": 1,
+          "discussions": 0,
+          "discussions_open": 0,
+          "followers": 0,
+          "followers_by_months": {
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0,
+            "2025-09": 0,
+            "2025-10": 0,
+            "2025-11": 0,
+            "2025-12": 0,
+            "2026-01": 0
+          },
+          "resources_downloads": 150,
+          "reuses": 0,
+          "reuses_by_months": {
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0,
+            "2025-09": 0,
+            "2025-10": 0,
+            "2025-11": 0,
+            "2025-12": 0,
+            "2026-01": 0
+          },
+          "views": 1180
         }
       },
       {
@@ -2664,6 +2446,74 @@
         }
       },
       {
+        "id": "685a4dc1fcd7dbced90aaf40",
+        "title": "Part des énergies renouvelables dans la consommation d'énergie",
+        "description": "Ce jeu de données présente la part des énergies renouvelables (en pourcentage %) dans la consommation d'énergie finale sur le périmètre de Toulouse Métropole. Plus d'informations sur les données : [Note méthodologique du bilan énergie - GES",
+        "organization": "Toulouse métropole",
+        "page": "https://www.data.gouv.fr/datasets/part-des-energies-renouvelables-dans-la-consommation-denergie",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/part-des-energies-renouvelables-dans-la-consommation-denergie/",
+        "query": "renouvelable",
+        "tags": [
+          "climat",
+          "consommation",
+          "energie",
+          "environnement",
+          "orceo",
+          "plan",
+          "renouvelable",
+          "terristory"
+        ],
+        "frequency": "unknown",
+        "license": "lov2",
+        "quality": 56,
+        "resources": 2,
+        "formats": [
+          "csv",
+          "json"
+        ],
+        "lastUpdate": "2026-02-03T13:21:40+00:00",
+        "temporalCoverage": null,
+        "metrics": {
+          "dataservices": 2,
+          "discussions": 0,
+          "discussions_open": 0,
+          "followers": 0,
+          "followers_by_months": {
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0,
+            "2025-09": 0,
+            "2025-10": 0,
+            "2025-11": 0,
+            "2025-12": 0,
+            "2026-01": 0
+          },
+          "resources_downloads": 122,
+          "reuses": 0,
+          "reuses_by_months": {
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0,
+            "2025-09": 0,
+            "2025-10": 0,
+            "2025-11": 0,
+            "2025-12": 0,
+            "2026-01": 0
+          },
+          "views": 1007
+        }
+      },
+      {
         "id": "67377b46b034c8d8c3c40aff",
         "title": "Avancement des Plans Climat Air Energie Climat territoriaux (PCAET) en Loire Atlantique",
         "description": "L’avancement des Plans Climat Air Energie Climat territoriaux (PCAET) en Loire Atlantique est produit par la Direction Départementale des Territoires et de la Mer de la Loire-Atlantique (SPCD/BST). Le PCAET est un outil de planification, à ",
@@ -2970,6 +2820,130 @@
         }
       },
       {
+        "id": "5369a131a3a729239d206545",
+        "title": "Surveillance de la qualité de l’air Station périurbaines de fond Léognan",
+        "description": "En Aquitaine, AIRAQ est en charge de la surveillance de la qualité de l’air. Le dispositif mis en place permet ainsi de connaitre en permanence les concentrations relevées dans l’air ambiant. AIRAQ a souhaité s’initier dans la démarche « in",
+        "organization": "Airaq",
+        "page": "https://www.data.gouv.fr/datasets/surveillance-de-la-qualite-de-l-air-station-periurbaines-de-fond-leognan-rdl",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/surveillance-de-la-qualite-de-l-air-station-periurbaines-de-fond-leognan-rdl/",
+        "query": "qualite air",
+        "tags": [
+          "air",
+          "environnement",
+          "pollution"
+        ],
+        "frequency": "annual",
+        "license": "fr-lo",
+        "quality": 56,
+        "resources": 1,
+        "formats": [
+          "csv"
+        ],
+        "lastUpdate": "2013-09-18T08:47:28.241000+00:00",
+        "temporalCoverage": null,
+        "metrics": {
+          "dataservices": 0,
+          "discussions": 0,
+          "discussions_open": 0,
+          "followers": 0,
+          "followers_by_months": {
+            "2024-08": 0,
+            "2024-09": 0,
+            "2024-10": 0,
+            "2024-11": 0,
+            "2024-12": 0,
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0
+          },
+          "resources_downloads": 410,
+          "reuses": 0,
+          "reuses_by_months": {
+            "2024-08": 0,
+            "2024-09": 0,
+            "2024-10": 0,
+            "2024-11": 0,
+            "2024-12": 0,
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0
+          },
+          "views": 2242
+        }
+      },
+      {
+        "id": "5369a130a3a729239d206543",
+        "title": "Surveillance de la qualité de l’air Station périurbaines de fond Ambès",
+        "description": "En Aquitaine, AIRAQ est en charge de la surveillance de la qualité de l’air. Le dispositif mis en place permet ainsi de connaitre en permanence les concentrations relevées dans l’air ambiant. AIRAQ a souhaité s’initier dans la démarche « in",
+        "organization": "Airaq",
+        "page": "https://www.data.gouv.fr/datasets/surveillance-de-la-qualite-de-l-air-station-periurbaines-de-fond-ambes-rdl",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/surveillance-de-la-qualite-de-l-air-station-periurbaines-de-fond-ambes-rdl/",
+        "query": "qualite air",
+        "tags": [
+          "air",
+          "environnement",
+          "pollution"
+        ],
+        "frequency": "annual",
+        "license": "odc-odbl",
+        "quality": 56,
+        "resources": 2,
+        "formats": [
+          "csv"
+        ],
+        "lastUpdate": "2013-09-18T08:47:30.939000+00:00",
+        "temporalCoverage": null,
+        "metrics": {
+          "dataservices": 0,
+          "discussions": 0,
+          "discussions_open": 0,
+          "followers": 0,
+          "followers_by_months": {
+            "2024-08": 0,
+            "2024-09": 0,
+            "2024-10": 0,
+            "2024-11": 0,
+            "2024-12": 0,
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0
+          },
+          "resources_downloads": 890,
+          "reuses": 0,
+          "reuses_by_months": {
+            "2024-08": 0,
+            "2024-09": 0,
+            "2024-10": 0,
+            "2024-11": 0,
+            "2024-12": 0,
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0
+          },
+          "views": 2606
+        }
+      },
+      {
         "id": "678f01b4b07968eed425a3c0",
         "title": "Energie - Sites et les projets énergies renouvelables en Loir-et-Cher",
         "description": "Sites et les projets énergies renouvelables en Loir-et-Cher",
@@ -3106,7 +3080,7 @@
         "organization": "Région Occitanie / Pyrénées Méditerranée",
         "page": "https://www.data.gouv.fr/datasets/panorama-des-energies-renouvelables",
         "uri": "https://www.data.gouv.fr/api/1/datasets/panorama-des-energies-renouvelables/",
-        "query": "renouvelable",
+        "query": "energie",
         "tags": [
           "developpement-durable",
           "energie",
@@ -3286,6 +3260,70 @@
         }
       },
       {
+        "id": "686bc5634627187cf5cf7cdb",
+        "title": "Pacte climat 2018 - NO2",
+        "description": "L'Administration de l'environnement a organisé une large campagne de mesurage de la qualité de l'air ambiant à échelle nationale en collaboration avec 36 communes participantes et myenergy au cours de l'année 2018. Plus concrètement, il s'a",
+        "organization": "SIG-GR",
+        "page": "https://www.data.gouv.fr/datasets/bb5aa932-2669-4802-9c34-c370addbc798-uuid",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/bb5aa932-2669-4802-9c34-c370addbc798-uuid/",
+        "query": "climat",
+        "tags": [
+          "environnement",
+          "environnement-qualite-de-lair-mesurage-no2-par-tubes-passifs",
+          "geoportail-lu",
+          "grand-duche-du-luxembourg",
+          "hotspots-qualite-de-lair-trafic-routier-no2-pacte-climat"
+        ],
+        "frequency": "unknown",
+        "license": "notspecified",
+        "quality": 44,
+        "resources": 4,
+        "formats": [
+          "html"
+        ],
+        "lastUpdate": "2026-11-21T15:20:00.995000+00:00",
+        "temporalCoverage": null,
+        "metrics": {
+          "dataservices": 0,
+          "discussions": 0,
+          "discussions_open": 0,
+          "followers": 0,
+          "followers_by_months": {
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0,
+            "2025-09": 0,
+            "2025-10": 0,
+            "2025-11": 0,
+            "2025-12": 0,
+            "2026-01": 0
+          },
+          "resources_downloads": 77,
+          "reuses": 0,
+          "reuses_by_months": {
+            "2025-01": 0,
+            "2025-02": 0,
+            "2025-03": 0,
+            "2025-04": 0,
+            "2025-05": 0,
+            "2025-06": 0,
+            "2025-07": 0,
+            "2025-08": 0,
+            "2025-09": 0,
+            "2025-10": 0,
+            "2025-11": 0,
+            "2025-12": 0,
+            "2026-01": 0
+          },
+          "views": 1083
+        }
+      },
+      {
         "id": "686bc00f4627187cf5cf7bf8",
         "title": "Pacte climat 2020 - NO2",
         "description": "L’Administration de l’environnement a organisé une large campagne de mesurage de la qualité de l’air ambiant à échelle nationale en collaboration avec 25 communes participantes et myenergy au cours de l’année 2020. Plus concrètement, il s’a",
@@ -3350,31 +3388,29 @@
         }
       },
       {
-        "id": "686bc5634627187cf5cf7cdb",
-        "title": "Pacte climat 2018 - NO2",
-        "description": "L'Administration de l'environnement a organisé une large campagne de mesurage de la qualité de l'air ambiant à échelle nationale en collaboration avec 36 communes participantes et myenergy au cours de l'année 2018. Plus concrètement, il s'a",
-        "organization": "SIG-GR",
-        "page": "https://www.data.gouv.fr/datasets/bb5aa932-2669-4802-9c34-c370addbc798-uuid",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/bb5aa932-2669-4802-9c34-c370addbc798-uuid/",
-        "query": "climat",
+        "id": "66d651e86922f478dc22770c",
+        "title": "PLN 2023 Qualité AIR",
+        "description": "Sonde Station Piscine et sonde station capitainerie Surveillance continue par ministations Analyses Dioxyde d'azote NO 2 Analyses Dioxyde de soufre SO 2 Anlayses Particules PM 10",
+        "organization": "Région Occitanie / Pyrénées Méditerranée",
+        "page": "https://www.data.gouv.fr/datasets/pln-2023-qualite-air",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/pln-2023-qualite-air/",
+        "query": "qualite air",
         "tags": [
-          "environnement",
-          "environnement-qualite-de-lair-mesurage-no2-par-tubes-passifs",
-          "geoportail-lu",
-          "grand-duche-du-luxembourg",
-          "hotspots-qualite-de-lair-trafic-routier-no2-pacte-climat"
+          "developpement-durable",
+          "port-la-nouvelle"
         ],
         "frequency": "unknown",
-        "license": "notspecified",
+        "license": "lov2",
         "quality": 44,
-        "resources": 4,
+        "resources": 2,
         "formats": [
-          "html"
+          "csv",
+          "json"
         ],
-        "lastUpdate": "2026-11-21T03:32:45.150000+00:00",
+        "lastUpdate": "2024-06-05T07:04:05+00:00",
         "temporalCoverage": null,
         "metrics": {
-          "dataservices": 0,
+          "dataservices": 1,
           "discussions": 0,
           "discussions_open": 0,
           "followers": 0,
@@ -3393,7 +3429,7 @@
             "2025-12": 0,
             "2026-01": 0
           },
-          "resources_downloads": 77,
+          "resources_downloads": 362,
           "reuses": 0,
           "reuses_by_months": {
             "2025-01": 0,
@@ -3410,7 +3446,7 @@
             "2025-12": 0,
             "2026-01": 0
           },
-          "views": 1083
+          "views": 2195
         }
       },
       {
@@ -3476,68 +3512,6 @@
             "2026-01": 0
           },
           "views": 1685
-        }
-      },
-      {
-        "id": "66d651e86922f478dc22770c",
-        "title": "PLN 2023 Qualité AIR",
-        "description": "Sonde Station Piscine et sonde station capitainerie Surveillance continue par ministations Analyses Dioxyde d'azote NO 2 Analyses Dioxyde de soufre SO 2 Anlayses Particules PM 10",
-        "organization": "Région Occitanie / Pyrénées Méditerranée",
-        "page": "https://www.data.gouv.fr/datasets/pln-2023-qualite-air",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/pln-2023-qualite-air/",
-        "query": "qualite air",
-        "tags": [
-          "developpement-durable",
-          "port-la-nouvelle"
-        ],
-        "frequency": "unknown",
-        "license": "lov2",
-        "quality": 44,
-        "resources": 2,
-        "formats": [
-          "csv",
-          "json"
-        ],
-        "lastUpdate": "2024-06-05T07:04:05+00:00",
-        "temporalCoverage": null,
-        "metrics": {
-          "dataservices": 1,
-          "discussions": 0,
-          "discussions_open": 0,
-          "followers": 0,
-          "followers_by_months": {
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0,
-            "2025-09": 0,
-            "2025-10": 0,
-            "2025-11": 0,
-            "2025-12": 0,
-            "2026-01": 0
-          },
-          "resources_downloads": 362,
-          "reuses": 0,
-          "reuses_by_months": {
-            "2025-01": 0,
-            "2025-02": 0,
-            "2025-03": 0,
-            "2025-04": 0,
-            "2025-05": 0,
-            "2025-06": 0,
-            "2025-07": 0,
-            "2025-08": 0,
-            "2025-09": 0,
-            "2025-10": 0,
-            "2025-11": 0,
-            "2025-12": 0,
-            "2026-01": 0
-          },
-          "views": 2195
         }
       },
       {
@@ -3902,12 +3876,12 @@
         }
       },
       {
-        "id": "59d30ef5a3a7291993b1eafb",
-        "title": "Surveillance de la qualité de l’air Station périurbaines de fond Ambès",
+        "id": "595923b6a3a7291dd09c81d1",
+        "title": "Surveillance de la qualité de l’air Station périurbaines de fond Léognan",
         "description": "En Aquitaine, AIRAQ est en charge de la surveillance de la qualité de l’air. Le dispositif mis en place permet ainsi de connaitre en permanence les concentrations relevées dans l’air ambiant. AIRAQ a souhaité s’initier dans la démarche « in",
         "organization": "Ressourcerie datalocale",
-        "page": "https://www.data.gouv.fr/datasets/surveillance-de-la-qualite-de-lair-station-periurbaines-de-fond-ambes-2",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/surveillance-de-la-qualite-de-lair-station-periurbaines-de-fond-ambes-2/",
+        "page": "https://www.data.gouv.fr/datasets/surveillance-de-la-qualite-de-lair-station-periurbaines-de-fond-leognan",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/surveillance-de-la-qualite-de-lair-station-periurbaines-de-fond-leognan/",
         "query": "qualite air",
         "tags": [
           "air",
@@ -3917,11 +3891,11 @@
         "frequency": "unknown",
         "license": "notspecified",
         "quality": 33,
-        "resources": 2,
+        "resources": 28,
         "formats": [
           "csv"
         ],
-        "lastUpdate": "2017-10-03T06:15:49.337000+00:00",
+        "lastUpdate": "2017-09-29T07:54:16.046000+00:00",
         "temporalCoverage": null,
         "metrics": {
           "dataservices": 0,
@@ -3943,7 +3917,7 @@
             "2025-07": 0,
             "2025-08": 0
           },
-          "resources_downloads": 555,
+          "resources_downloads": 6654,
           "reuses": 0,
           "reuses_by_months": {
             "2024-08": 0,
@@ -3960,16 +3934,16 @@
             "2025-07": 0,
             "2025-08": 0
           },
-          "views": 2289
+          "views": 2216
         }
       },
       {
-        "id": "595923b4a3a7291dcf9c823a",
+        "id": "59cf1b44b59508043ce9b87d",
         "title": "Surveillance de la qualité de l’air Station périurbaines de fond Ambès",
         "description": "En Aquitaine, AIRAQ est en charge de la surveillance de la qualité de l’air. Le dispositif mis en place permet ainsi de connaitre en permanence les concentrations relevées dans l’air ambiant. AIRAQ a souhaité s’initier dans la démarche « in",
         "organization": "Ressourcerie datalocale",
-        "page": "https://www.data.gouv.fr/datasets/surveillance-de-la-qualite-de-lair-station-periurbaines-de-fond-ambes",
-        "uri": "https://www.data.gouv.fr/api/1/datasets/surveillance-de-la-qualite-de-lair-station-periurbaines-de-fond-ambes/",
+        "page": "https://www.data.gouv.fr/datasets/surveillance-de-la-qualite-de-lair-station-periurbaines-de-fond-ambes-1",
+        "uri": "https://www.data.gouv.fr/api/1/datasets/surveillance-de-la-qualite-de-lair-station-periurbaines-de-fond-ambes-1/",
         "query": "qualite air",
         "tags": [
           "air",
@@ -3979,11 +3953,11 @@
         "frequency": "unknown",
         "license": "notspecified",
         "quality": 33,
-        "resources": 56,
+        "resources": 6,
         "formats": [
           "csv"
         ],
-        "lastUpdate": "2017-09-29T07:54:08.524000+00:00",
+        "lastUpdate": "2017-10-02T07:52:31.024000+00:00",
         "temporalCoverage": null,
         "metrics": {
           "dataservices": 0,
@@ -4005,7 +3979,7 @@
             "2025-07": 0,
             "2025-08": 0
           },
-          "resources_downloads": 11519,
+          "resources_downloads": 1706,
           "reuses": 0,
           "reuses_by_months": {
             "2024-08": 0,
@@ -4022,7 +3996,7 @@
             "2025-07": 0,
             "2025-08": 0
           },
-          "views": 3540
+          "views": 2215
         }
       }
     ]
@@ -5051,7 +5025,7 @@
         "temporalStep": null,
         "geography": null,
         "records": 45942,
-        "modified": "2026-11-20T13:01:06+00:00",
+        "modified": "2026-11-21T13:01:08+00:00",
         "fields": [
           {
             "name": "date",
@@ -5927,7 +5901,7 @@
         "temporalStep": null,
         "geography": null,
         "records": 1511,
-        "modified": "2026-11-20T07:30:21+00:00",
+        "modified": "2026-11-21T07:30:17+00:00",
         "fields": [
           {
             "name": "date",
@@ -7074,8 +7048,8 @@
         "networks": [],
         "temporalStep": null,
         "geography": null,
-        "records": 1492,
-        "modified": "2026-11-20T16:00:33+00:00",
+        "records": 1493,
+        "modified": "2026-11-21T16:00:02+00:00",
         "fields": [
           {
             "name": "gas_day",
@@ -9201,7 +9175,7 @@
         "networks": [],
         "temporalStep": null,
         "geography": null,
-        "records": 31456,
+        "records": 31465,
         "modified": "2018-01-24T12:43:24+00:00",
         "fields": [
           {
@@ -9744,7 +9718,7 @@
         "temporalStep": null,
         "geography": null,
         "records": 5146,
-        "modified": "2026-11-20T17:01:09+00:00",
+        "modified": "2026-11-21T17:00:51+00:00",
         "fields": [
           {
             "name": "date",
@@ -10192,8 +10166,8 @@
         "networks": [],
         "temporalStep": null,
         "geography": null,
-        "records": 51605,
-        "modified": "2026-11-21T07:00:41+00:00",
+        "records": 51617,
+        "modified": "2026-11-21T19:00:46+00:00",
         "fields": [
           {
             "name": "date_cet",
@@ -10242,7 +10216,7 @@
         "temporalStep": null,
         "geography": null,
         "records": 6089,
-        "modified": "2026-11-20T21:00:33+00:00",
+        "modified": "2026-11-21T17:00:57+00:00",
         "fields": [
           {
             "name": "date",
@@ -10532,83 +10506,6 @@
         ]
       },
       {
-        "id": "consommation-annuelle-brute",
-        "uid": "da_7gq3g8",
-        "title": "Consommation annuelle brute",
-        "description": "Ce jeu de données présente les consommations nationales annuelles brutes d’électricité (GWh) et de gaz (GWh PCS 0°C). Concernant les données Electricité : Périmètre : France continentale et Corse, pertes comprises avec et sans correction de l'aléa climatique. ",
-        "publisher": "NaTran, RTE, Teréga",
-        "territory": [
-          "France"
-        ],
-        "themes": [
-          "Consommation"
-        ],
-        "keywords": [
-          "Tableau de Bord Régional",
-          "LTECV",
-          "Article 179",
-          "Bilan annuel"
-        ],
-        "energies": [],
-        "networks": [],
-        "temporalStep": null,
-        "geography": null,
-        "records": 25,
-        "modified": "2026-02-25T10:22:49+00:00",
-        "fields": [
-          {
-            "name": "annee",
-            "label": "Année",
-            "type": "date"
-          },
-          {
-            "name": "consommation_brute_gaz_gwh_pcs_0degc_natran",
-            "label": "Consommation brute gaz (GWh PCS 0°C) - NaTran",
-            "type": "int"
-          },
-          {
-            "name": "statut_natran",
-            "label": "Statut - NaTran",
-            "type": "text"
-          },
-          {
-            "name": "consommation_brute_gaz_gwh_pcs_0degc_terega",
-            "label": "Consommation brute gaz (GWh PCS 0°C) - Teréga",
-            "type": "int"
-          },
-          {
-            "name": "statut_terega",
-            "label": "Statut - Teréga",
-            "type": "text"
-          },
-          {
-            "name": "consommation_brute_gaz_totale",
-            "label": "Consommation brute gaz totale (GWh PCS 0°C)",
-            "type": "int"
-          },
-          {
-            "name": "consommation_brute_electricite_rte",
-            "label": "Consommation brute électricité (GWh) - RTE",
-            "type": "int"
-          },
-          {
-            "name": "consommation_corrigee_electricite_rte",
-            "label": "Consommation corrigée électricité (GWh) - RTE",
-            "type": "int"
-          },
-          {
-            "name": "statut_rte",
-            "label": "Statut - RTE",
-            "type": "text"
-          },
-          {
-            "name": "consommation_brute_totale",
-            "label": "Consommation brute totale (GWh)",
-            "type": "int"
-          }
-        ]
-      },
-      {
         "id": "odre-ptc-gaz",
         "uid": "da_cbyju6",
         "title": "Programme Travaux Communs des Opérateurs Gaziers",
@@ -10628,7 +10525,7 @@
         "temporalStep": null,
         "geography": null,
         "records": 195537,
-        "modified": "2026-11-20T13:33:02+00:00",
+        "modified": "2026-11-21T13:32:42+00:00",
         "fields": [
           {
             "name": "annee",
@@ -11144,6 +11041,136 @@
         ]
       },
       {
+        "id": "bilan-previsionnel-electrique-2021-bilans-energetiques0",
+        "uid": "da_k0gxs3",
+        "title": "Bilan prévisionnel électrique 2021 - Bilans énergétiques",
+        "description": "Ce jeu de données présente un scénario commun sur les bilans énergétiques du système électrique français continental sur l'horizon 2021 - 2025 puis deux scénarios sur la coupe 2030. En complément, des indicateurs sont fournis pour chaque année de étudiée : Emi",
+        "publisher": "RTE",
+        "territory": [
+          "France"
+        ],
+        "themes": [
+          "Consommation",
+          "Production"
+        ],
+        "keywords": [
+          "Prospective"
+        ],
+        "energies": [],
+        "networks": [],
+        "temporalStep": null,
+        "geography": null,
+        "records": 7,
+        "modified": "2021-10-04T12:23:14+00:00",
+        "fields": [
+          {
+            "name": "scenario",
+            "label": "Scénario",
+            "type": "text"
+          },
+          {
+            "name": "annee",
+            "label": "Année",
+            "type": "text"
+          },
+          {
+            "name": "consommation_france_twh",
+            "label": "Consommation France (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "pompage_twh",
+            "label": "Pompage (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "energie_deversee_twh",
+            "label": "Energie déversée (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "nucleaire_twh",
+            "label": "Nucléaire (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "cycles_combines_au_gaz_twh",
+            "label": "Cycles combinés au gaz (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "charbon_twh",
+            "label": "Charbon (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "fioul_twh",
+            "label": "Fioul (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "turbines_a_combustion_twh",
+            "label": "Turbines à combustion (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "cogenerations_twh",
+            "label": "Cogénérations (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "autre_thermique_twh",
+            "label": "Autre thermique (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "hydraulique_twh",
+            "label": "Hydraulique (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "eolien_twh",
+            "label": "Eolien (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "photovoltaique_twh",
+            "label": "Photovoltaïque (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "bioenergies_twh",
+            "label": "Bioénergies (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "energies_marines_twh",
+            "label": "Energies marines (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "solde_des_echanges_twh",
+            "label": "Solde des échanges (TWh)",
+            "type": "double"
+          },
+          {
+            "name": "part_du_nucleaire",
+            "label": "Part du nucléaire (%)",
+            "type": "double"
+          },
+          {
+            "name": "part_des_energies_renouvelables",
+            "label": "Part des énergies renouvelables (%)",
+            "type": "double"
+          },
+          {
+            "name": "emissions_c02_mt",
+            "label": "Emissions C02 (Mt)",
+            "type": "double"
+          }
+        ]
+      },
+      {
         "id": "nombre-installation-production-stockage-electricite-31122020",
         "uid": "da_ynd4sh",
         "title": "Nombre d'installations de production et de stockage d'électricité de moins de 36kW par IRIS (au 31 décembre 2020)",
@@ -11214,6 +11241,83 @@
           {
             "name": "nbinstallations",
             "label": "nbInstallations",
+            "type": "int"
+          }
+        ]
+      },
+      {
+        "id": "consommation-annuelle-brute",
+        "uid": "da_7gq3g8",
+        "title": "Consommation annuelle brute",
+        "description": "Ce jeu de données présente les consommations nationales annuelles brutes d’électricité (GWh) et de gaz (GWh PCS 0°C). Concernant les données Electricité : Périmètre : France continentale et Corse, pertes comprises avec et sans correction de l'aléa climatique. ",
+        "publisher": "NaTran, RTE, Teréga",
+        "territory": [
+          "France"
+        ],
+        "themes": [
+          "Consommation"
+        ],
+        "keywords": [
+          "Tableau de Bord Régional",
+          "LTECV",
+          "Article 179",
+          "Bilan annuel"
+        ],
+        "energies": [],
+        "networks": [],
+        "temporalStep": null,
+        "geography": null,
+        "records": 25,
+        "modified": "2026-02-25T10:22:49+00:00",
+        "fields": [
+          {
+            "name": "annee",
+            "label": "Année",
+            "type": "date"
+          },
+          {
+            "name": "consommation_brute_gaz_gwh_pcs_0degc_natran",
+            "label": "Consommation brute gaz (GWh PCS 0°C) - NaTran",
+            "type": "int"
+          },
+          {
+            "name": "statut_natran",
+            "label": "Statut - NaTran",
+            "type": "text"
+          },
+          {
+            "name": "consommation_brute_gaz_gwh_pcs_0degc_terega",
+            "label": "Consommation brute gaz (GWh PCS 0°C) - Teréga",
+            "type": "int"
+          },
+          {
+            "name": "statut_terega",
+            "label": "Statut - Teréga",
+            "type": "text"
+          },
+          {
+            "name": "consommation_brute_gaz_totale",
+            "label": "Consommation brute gaz totale (GWh PCS 0°C)",
+            "type": "int"
+          },
+          {
+            "name": "consommation_brute_electricite_rte",
+            "label": "Consommation brute électricité (GWh) - RTE",
+            "type": "int"
+          },
+          {
+            "name": "consommation_corrigee_electricite_rte",
+            "label": "Consommation corrigée électricité (GWh) - RTE",
+            "type": "int"
+          },
+          {
+            "name": "statut_rte",
+            "label": "Statut - RTE",
+            "type": "text"
+          },
+          {
+            "name": "consommation_brute_totale",
+            "label": "Consommation brute totale (GWh)",
             "type": "int"
           }
         ]
@@ -11790,6 +11894,50 @@
         ]
       },
       {
+        "id": "evolution-de-lactivite-aux-points-dechange-de-gaz-peg-sur-le-reseau-grtgaz0",
+        "uid": "da_4oghf6",
+        "title": "Évolution de l’activité aux Points d’Échange de Gaz (PEG) sur le réseau NaTran",
+        "description": "Ce jeu de données présente l’évolution des volumes de gaz naturel échangés sur le PEG entre 2016 et à date.",
+        "publisher": "NaTran",
+        "territory": [
+          "France"
+        ],
+        "themes": [
+          "Marchés"
+        ],
+        "keywords": [
+          "PEG"
+        ],
+        "energies": [],
+        "networks": [],
+        "temporalStep": null,
+        "geography": null,
+        "records": 251,
+        "modified": "2021-10-29T13:09:29+00:00",
+        "fields": [
+          {
+            "name": "annee",
+            "label": "﻿Année",
+            "type": "date"
+          },
+          {
+            "name": "mois",
+            "label": "Mois",
+            "type": "date"
+          },
+          {
+            "name": "quantites_echangees",
+            "label": "Quantités échangées (KWh)",
+            "type": "int"
+          },
+          {
+            "name": "quantites_echangee_twh",
+            "label": "Quantités échangées (TWh)",
+            "type": "double"
+          }
+        ]
+      },
+      {
         "id": "eco2mix-national-tr",
         "uid": "da_36r18k",
         "title": "Données éCO2mix nationales temps réel",
@@ -12113,132 +12261,77 @@
         ]
       },
       {
-        "id": "bilan-previsionnel-electrique-2021-bilans-energetiques0",
-        "uid": "da_k0gxs3",
-        "title": "Bilan prévisionnel électrique 2021 - Bilans énergétiques",
-        "description": "Ce jeu de données présente un scénario commun sur les bilans énergétiques du système électrique français continental sur l'horizon 2021 - 2025 puis deux scénarios sur la coupe 2030. En complément, des indicateurs sont fournis pour chaque année de étudiée : Emi",
-        "publisher": "RTE",
+        "id": "nombre-installation-production-stockage-electricite-3112025",
+        "uid": "da_96pody",
+        "title": "Nombre d'installations de production et de stockage d'électricité de moins de 36kW par IRIS (au 31 décembre 2025)",
+        "description": "Ce jeu de données présente le nombre d’installations de moins de 36KW par maille géographique IRIS. Il s'agit de l'agrégation des installations ayant une puissance installée ou raccordée de moins de 36KW et ayant le même code IRIS. Dans le cadre de l'arrêté du",
+        "publisher": "RTE, Enedis, EDF SEI, ELD",
         "territory": [
           "France"
         ],
         "themes": [
-          "Consommation",
-          "Production"
+          "Production",
+          "Territoires et régions"
         ],
         "keywords": [
-          "Prospective"
+          "Parc"
         ],
         "energies": [],
         "networks": [],
         "temporalStep": null,
         "geography": null,
-        "records": 7,
-        "modified": "2021-10-04T12:23:14+00:00",
+        "records": 68866,
+        "modified": "2026-03-11T20:21:14+00:00",
         "fields": [
           {
-            "name": "scenario",
-            "label": "Scénario",
+            "name": "codeiris",
+            "label": "codeIRIS",
             "type": "text"
           },
           {
-            "name": "annee",
-            "label": "Année",
+            "name": "codeinseecommune",
+            "label": "codeINSEEcommune",
+            "type": "double"
+          },
+          {
+            "name": "commune",
+            "label": "commune",
             "type": "text"
           },
           {
-            "name": "consommation_france_twh",
-            "label": "Consommation France (TWh)",
+            "name": "code_insee_epci",
+            "label": "Code INSEE EPCI",
             "type": "double"
           },
           {
-            "name": "pompage_twh",
-            "label": "Pompage (TWh)",
-            "type": "double"
+            "name": "epci",
+            "label": "EPCI",
+            "type": "text"
           },
           {
-            "name": "energie_deversee_twh",
-            "label": "Energie déversée (TWh)",
-            "type": "double"
+            "name": "codedepartement",
+            "label": "codeDepartement",
+            "type": "int"
           },
           {
-            "name": "nucleaire_twh",
-            "label": "Nucléaire (TWh)",
-            "type": "double"
+            "name": "departement",
+            "label": "departement",
+            "type": "text"
           },
           {
-            "name": "cycles_combines_au_gaz_twh",
-            "label": "Cycles combinés au gaz (TWh)",
-            "type": "double"
+            "name": "coderegion",
+            "label": "codeRegion",
+            "type": "int"
           },
           {
-            "name": "charbon_twh",
-            "label": "Charbon (TWh)",
-            "type": "double"
+            "name": "nbinstallations",
+            "label": "nbInstallations",
+            "type": "int"
           },
           {
-            "name": "fioul_twh",
-            "label": "Fioul (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "turbines_a_combustion_twh",
-            "label": "Turbines à combustion (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "cogenerations_twh",
-            "label": "Cogénérations (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "autre_thermique_twh",
-            "label": "Autre thermique (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "hydraulique_twh",
-            "label": "Hydraulique (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "eolien_twh",
-            "label": "Eolien (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "photovoltaique_twh",
-            "label": "Photovoltaïque (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "bioenergies_twh",
-            "label": "Bioénergies (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "energies_marines_twh",
-            "label": "Energies marines (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "solde_des_echanges_twh",
-            "label": "Solde des échanges (TWh)",
-            "type": "double"
-          },
-          {
-            "name": "part_du_nucleaire",
-            "label": "Part du nucléaire (%)",
-            "type": "double"
-          },
-          {
-            "name": "part_des_energies_renouvelables",
-            "label": "Part des énergies renouvelables (%)",
-            "type": "double"
-          },
-          {
-            "name": "emissions_c02_mt",
-            "label": "Emissions C02 (Mt)",
-            "type": "double"
+            "name": "region_maj",
+            "label": "Région (Maj)",
+            "type": "text"
           }
         ]
       },
@@ -12324,7 +12417,7 @@
         "temporalStep": null,
         "geography": null,
         "records": 6075,
-        "modified": "2026-11-20T07:51:04+00:00",
+        "modified": "2026-11-21T07:51:14+00:00",
         "fields": [
           {
             "name": "date",
@@ -12447,6 +12540,58 @@
         ]
       },
       {
+        "id": "trace-du-reseau-grt-250",
+        "uid": "da_3pc2dx",
+        "title": "Tracé simplifié du réseau NaTran précis à environ 250 m (MAJ 2024)",
+        "description": "Tracé simplifié du réseau NaTran, qualifié au 1:250 000. Ce jeu de données linéaires comporte l’ensemble des canalisations en service du réseau de transport de gaz naturel exploité par NaTran. Il est adapté à des usages à l’échelle des Régions administratives ",
+        "publisher": "NaTran",
+        "territory": [
+          "France"
+        ],
+        "themes": [
+          "Infrastructures",
+          "Territoires et régions"
+        ],
+        "keywords": [
+          "Réseau",
+          "SIG",
+          "Carte"
+        ],
+        "energies": [],
+        "networks": [],
+        "temporalStep": null,
+        "geography": null,
+        "records": 11615,
+        "modified": "2026-10-19T17:22:28.302000+00:00",
+        "fields": [
+          {
+            "name": "geo_shape",
+            "label": "Géo Shape",
+            "type": "geo_shape"
+          },
+          {
+            "name": "geo_point_2d",
+            "label": "Géo Point",
+            "type": "geo_point_2d"
+          },
+          {
+            "name": "object_id",
+            "label": "OBJECT_ID",
+            "type": "int"
+          },
+          {
+            "name": "nom_region",
+            "label": "Région concernée",
+            "type": "text"
+          },
+          {
+            "name": "departement",
+            "label": "departement",
+            "type": "text"
+          }
+        ]
+      },
+      {
         "id": "projets-ami-gh-2024",
         "uid": "da_3jck88",
         "title": "Projets de production de biométhane, gaz bas-carbone et gaz de récupération par Gazéification Hydrothermale en France",
@@ -12542,50 +12687,6 @@
         ]
       },
       {
-        "id": "evolution-de-lactivite-aux-points-dechange-de-gaz-peg-sur-le-reseau-grtgaz0",
-        "uid": "da_4oghf6",
-        "title": "Évolution de l’activité aux Points d’Échange de Gaz (PEG) sur le réseau NaTran",
-        "description": "Ce jeu de données présente l’évolution des volumes de gaz naturel échangés sur le PEG entre 2016 et à date.",
-        "publisher": "NaTran",
-        "territory": [
-          "France"
-        ],
-        "themes": [
-          "Marchés"
-        ],
-        "keywords": [
-          "PEG"
-        ],
-        "energies": [],
-        "networks": [],
-        "temporalStep": null,
-        "geography": null,
-        "records": 251,
-        "modified": "2021-10-29T13:09:29+00:00",
-        "fields": [
-          {
-            "name": "annee",
-            "label": "﻿Année",
-            "type": "date"
-          },
-          {
-            "name": "mois",
-            "label": "Mois",
-            "type": "date"
-          },
-          {
-            "name": "quantites_echangees",
-            "label": "Quantités échangées (KWh)",
-            "type": "int"
-          },
-          {
-            "name": "quantites_echangee_twh",
-            "label": "Quantités échangées (TWh)",
-            "type": "double"
-          }
-        ]
-      },
-      {
         "id": "prod-nat-gaz-horaire-prov",
         "uid": "da_puehyz",
         "title": "Production horaire provisoire de biométhane des sites d'injection raccordés au réseau de transport de gaz en France",
@@ -12607,8 +12708,8 @@
         "networks": [],
         "temporalStep": null,
         "geography": null,
-        "records": 5031,
-        "modified": "2026-11-20T17:00:55+00:00",
+        "records": 5032,
+        "modified": "2026-11-21T17:00:42+00:00",
         "fields": [
           {
             "name": "operateur",
@@ -12887,77 +12988,45 @@
         ]
       },
       {
-        "id": "nombre-installation-production-stockage-electricite-3112025",
-        "uid": "da_96pody",
-        "title": "Nombre d'installations de production et de stockage d'électricité de moins de 36kW par IRIS (au 31 décembre 2025)",
-        "description": "Ce jeu de données présente le nombre d’installations de moins de 36KW par maille géographique IRIS. Il s'agit de l'agrégation des installations ayant une puissance installée ou raccordée de moins de 36KW et ayant le même code IRIS. Dans le cadre de l'arrêté du",
-        "publisher": "RTE, Enedis, EDF SEI, ELD",
+        "id": "pic-journalier-consommation-brute",
+        "uid": "da_g96fs0",
+        "title": "Pic journalier de la consommation brute d'électricité",
+        "description": "Historique journalier de la puissance maximale (GW) nécessaire pour couvrir les pics de la consommation brute française. Cet historique est complété par les valeurs des températures de référence et moyenne.",
+        "publisher": "RTE, METEO-FRANCE",
         "territory": [
           "France"
         ],
         "themes": [
-          "Production",
-          "Territoires et régions"
+          "Consommation",
+          "Météorologie"
         ],
-        "keywords": [
-          "Parc"
-        ],
+        "keywords": [],
         "energies": [],
         "networks": [],
         "temporalStep": null,
         "geography": null,
-        "records": 68866,
-        "modified": "2026-03-11T20:21:14+00:00",
+        "records": 5387,
+        "modified": "2026-11-03T08:00:56+00:00",
         "fields": [
           {
-            "name": "codeiris",
-            "label": "codeIRIS",
-            "type": "text"
+            "name": "date",
+            "label": "Date",
+            "type": "date"
           },
           {
-            "name": "codeinseecommune",
-            "label": "codeINSEEcommune",
+            "name": "pic_journalier_consommation",
+            "label": "Pic journalier consommation (MW)",
             "type": "double"
           },
           {
-            "name": "commune",
-            "label": "commune",
-            "type": "text"
-          },
-          {
-            "name": "code_insee_epci",
-            "label": "Code INSEE EPCI",
+            "name": "temperature_moyenne",
+            "label": "Température moyenne (°C)",
             "type": "double"
           },
           {
-            "name": "epci",
-            "label": "EPCI",
-            "type": "text"
-          },
-          {
-            "name": "codedepartement",
-            "label": "codeDepartement",
-            "type": "int"
-          },
-          {
-            "name": "departement",
-            "label": "departement",
-            "type": "text"
-          },
-          {
-            "name": "coderegion",
-            "label": "codeRegion",
-            "type": "int"
-          },
-          {
-            "name": "nbinstallations",
-            "label": "nbInstallations",
-            "type": "int"
-          },
-          {
-            "name": "region_maj",
-            "label": "Région (Maj)",
-            "type": "text"
+            "name": "temperature_reference",
+            "label": "Température référence (°C)",
+            "type": "double"
           }
         ]
       },
@@ -13680,58 +13749,6 @@
         ]
       },
       {
-        "id": "trace-du-reseau-grt-250",
-        "uid": "da_3pc2dx",
-        "title": "Tracé simplifié du réseau NaTran précis à environ 250 m (MAJ 2024)",
-        "description": "Tracé simplifié du réseau NaTran, qualifié au 1:250 000. Ce jeu de données linéaires comporte l’ensemble des canalisations en service du réseau de transport de gaz naturel exploité par NaTran. Il est adapté à des usages à l’échelle des Régions administratives ",
-        "publisher": "NaTran",
-        "territory": [
-          "France"
-        ],
-        "themes": [
-          "Infrastructures",
-          "Territoires et régions"
-        ],
-        "keywords": [
-          "Réseau",
-          "SIG",
-          "Carte"
-        ],
-        "energies": [],
-        "networks": [],
-        "temporalStep": null,
-        "geography": null,
-        "records": 11615,
-        "modified": "2026-10-19T17:22:28.302000+00:00",
-        "fields": [
-          {
-            "name": "geo_shape",
-            "label": "Géo Shape",
-            "type": "geo_shape"
-          },
-          {
-            "name": "geo_point_2d",
-            "label": "Géo Point",
-            "type": "geo_point_2d"
-          },
-          {
-            "name": "object_id",
-            "label": "OBJECT_ID",
-            "type": "int"
-          },
-          {
-            "name": "nom_region",
-            "label": "Région concernée",
-            "type": "text"
-          },
-          {
-            "name": "departement",
-            "label": "departement",
-            "type": "text"
-          }
-        ]
-      },
-      {
         "id": "cartographie-acces-biomethane",
         "uid": "da_53ig0l",
         "title": "Cartographie d’accès aux réseaux méthane renouvelable et bas carbone",
@@ -13846,6 +13863,87 @@
             "name": "libelle",
             "label": "Nom de la zone",
             "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "prod-region-annuelle-filiere",
+        "uid": "da_0gdz6i",
+        "title": "Production régionale annuelle par filière (2008 à 2025)",
+        "description": "Production annuelle française définitive d’électricité et de gaz (TWh) par filière et par territoire (région administrative). Suite à un recalcul de l'autoconsommation photovoltaïque, la production photovoltaïque sur les années 2022 à 2024 a augmenté.",
+        "publisher": "NaTran, RTE, Teréga",
+        "territory": [
+          "France"
+        ],
+        "themes": [
+          "Production",
+          "Territoires et régions"
+        ],
+        "keywords": [
+          "Filière",
+          "Tableau de Bord Régional"
+        ],
+        "energies": [],
+        "networks": [],
+        "temporalStep": null,
+        "geography": null,
+        "records": 234,
+        "modified": "2025-05-07T09:47:04+00:00",
+        "fields": [
+          {
+            "name": "annee",
+            "label": "Année",
+            "type": "date"
+          },
+          {
+            "name": "code_insee_region",
+            "label": "Code INSEE région",
+            "type": "text"
+          },
+          {
+            "name": "region",
+            "label": "Région",
+            "type": "text"
+          },
+          {
+            "name": "production_nucleaire",
+            "label": "Production nucléaire (GWh)",
+            "type": "double"
+          },
+          {
+            "name": "production_thermique",
+            "label": "Production thermique (GWh)",
+            "type": "double"
+          },
+          {
+            "name": "production_hydraulique",
+            "label": "Production hydraulique (GWh)",
+            "type": "double"
+          },
+          {
+            "name": "production_eolienne",
+            "label": "Production éolienne (GWh)",
+            "type": "double"
+          },
+          {
+            "name": "production_solaire",
+            "label": "Production solaire (GWh)",
+            "type": "double"
+          },
+          {
+            "name": "production_bioenergies",
+            "label": "Production bioénergies (GWh)",
+            "type": "double"
+          },
+          {
+            "name": "geo_shape_region",
+            "label": "Géo-shape région",
+            "type": "geo_shape"
+          },
+          {
+            "name": "geo_point_region",
+            "label": "Géo-point région",
+            "type": "geo_point_2d"
           }
         ]
       },
@@ -14031,45 +14129,82 @@
         ]
       },
       {
-        "id": "pic-journalier-consommation-brute",
-        "uid": "da_g96fs0",
-        "title": "Pic journalier de la consommation brute d'électricité",
-        "description": "Historique journalier de la puissance maximale (GW) nécessaire pour couvrir les pics de la consommation brute française. Cet historique est complété par les valeurs des températures de référence et moyenne.",
-        "publisher": "RTE, METEO-FRANCE",
+        "id": "nombre-installation-production-stockage-electricite-31122022",
+        "uid": "da_xuhv70",
+        "title": "Nombre d'installations de production et de stockage d'électricité de moins de 36kW par IRIS (au 31 décembre 2022)",
+        "description": "Ce jeu de données présente le nombre d’installations de moins de 36KW par maille géographique IRIS. Il s'agit de l'agrégation des installations ayant une puissance installée ou raccordée de moins de 36KW et ayant le même code IRIS. Dans le cadre de l'arrêté du",
+        "publisher": "RTE, Enedis, EDF SEI, ELD",
         "territory": [
           "France"
         ],
         "themes": [
-          "Consommation",
-          "Météorologie"
+          "Production",
+          "Territoires et régions"
         ],
-        "keywords": [],
+        "keywords": [
+          "Parc"
+        ],
         "energies": [],
         "networks": [],
         "temporalStep": null,
         "geography": null,
-        "records": 5387,
-        "modified": "2026-11-03T08:00:56+00:00",
+        "records": 62206,
+        "modified": "2023-02-21T15:51:47+00:00",
         "fields": [
           {
-            "name": "date",
-            "label": "Date",
-            "type": "date"
+            "name": "codeiris",
+            "label": "codeIRIS",
+            "type": "text"
           },
           {
-            "name": "pic_journalier_consommation",
-            "label": "Pic journalier consommation (MW)",
-            "type": "double"
+            "name": "codeinseecommune",
+            "label": "codeINSEEcommune",
+            "type": "text"
           },
           {
-            "name": "temperature_moyenne",
-            "label": "Température moyenne (°C)",
-            "type": "double"
+            "name": "commune",
+            "label": "commune",
+            "type": "text"
           },
           {
-            "name": "temperature_reference",
-            "label": "Température référence (°C)",
-            "type": "double"
+            "name": "code_insee_epci",
+            "label": "Code INSEE EPCI",
+            "type": "text"
+          },
+          {
+            "name": "epci",
+            "label": "EPCI",
+            "type": "text"
+          },
+          {
+            "name": "codedepartement",
+            "label": "codeDepartement",
+            "type": "text"
+          },
+          {
+            "name": "departement",
+            "label": "departement",
+            "type": "text"
+          },
+          {
+            "name": "coderegion",
+            "label": "codeRegion",
+            "type": "int"
+          },
+          {
+            "name": "region",
+            "label": "Région",
+            "type": "text"
+          },
+          {
+            "name": "nbinstallations",
+            "label": "nbInstallations",
+            "type": "int"
+          },
+          {
+            "name": "departement_maj",
+            "label": "Département (Maj)",
+            "type": "text"
           }
         ]
       },
@@ -14150,6 +14285,160 @@
             "name": "situation_soir",
             "label": "Situation soir",
             "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "consommation-journaliere-maximale-de-gaz-maille-nationale",
+        "uid": "da_ayrlqk",
+        "title": "Extremas de consommation quotidienne définitive de gaz relevée sur le réseau de NaTran et Teréga",
+        "description": "Ce jeu de données présente la consommation horaire maximale de gaz (en MWh PCS 0°C) par jour à la maille nationale sur le réseau de NaTran et de Teréga. Les données sont définitives. Les consommations maximum sont complétées par les valeurs des températures de",
+        "publisher": "NaTran, Teréga",
+        "territory": [
+          "France"
+        ],
+        "themes": [
+          "Consommation",
+          "Météorologie"
+        ],
+        "keywords": [
+          "Extremas"
+        ],
+        "energies": [],
+        "networks": [],
+        "temporalStep": null,
+        "geography": null,
+        "records": 3195,
+        "modified": "2026-11-10T19:00:58+00:00",
+        "fields": [
+          {
+            "name": "date",
+            "label": "Date",
+            "type": "date"
+          },
+          {
+            "name": "max_conso_grtgaz",
+            "label": "Consommation max GRTgaz (KWh PCS 0°C)",
+            "type": "int"
+          },
+          {
+            "name": "max_conso_terega",
+            "label": "Consommation max Teréga (KWh PCS 0°C)",
+            "type": "int"
+          },
+          {
+            "name": "max_conso_gaz_total",
+            "label": "Consommation max totale de gaz (KWh PCS 0°C)",
+            "type": "int"
+          },
+          {
+            "name": "tmax",
+            "label": "Tmax",
+            "type": "double"
+          },
+          {
+            "name": "tmin",
+            "label": "Tmin",
+            "type": "double"
+          },
+          {
+            "name": "tmoy",
+            "label": "Tmoy",
+            "type": "double"
+          }
+        ]
+      },
+      {
+        "id": "corridor_grd_20_km-nat-grtgaz",
+        "uid": "da_2m8t7p",
+        "title": "Corridor de largeur 20 km de part et d’autre du réseau de distribution de gaz",
+        "description": "Corridor de largeur 20 km de part et d’autre du réseau de distribution de gaz. Ce corridor a été calculé à partir de la donnée « infrastructures de réseau gaz » présent sur la plate-forme ORE . Ce jeu de données reflète la présence d’un réseau de distribution ",
+        "publisher": "NaTran",
+        "territory": [
+          "France"
+        ],
+        "themes": [
+          "Infrastructures",
+          "Territoires et régions"
+        ],
+        "keywords": [
+          "SIG"
+        ],
+        "energies": [],
+        "networks": [],
+        "temporalStep": null,
+        "geography": null,
+        "records": 1,
+        "modified": "2023-10-20T16:05:51+00:00",
+        "fields": [
+          {
+            "name": "geo_point_2d",
+            "label": "Geo Point",
+            "type": "geo_point_2d"
+          },
+          {
+            "name": "geo_shape",
+            "label": "Geo Shape",
+            "type": "geo_shape"
+          },
+          {
+            "name": "objectid",
+            "label": "OBJECTID",
+            "type": "text"
+          },
+          {
+            "name": "type",
+            "label": "TYPE",
+            "type": "text"
+          },
+          {
+            "name": "shape_length",
+            "label": "Shape_Length",
+            "type": "text"
+          },
+          {
+            "name": "shape_area",
+            "label": "Shape_Area",
+            "type": "text"
+          },
+          {
+            "name": "largeur",
+            "label": "LARGEUR",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "pic-annuel-conso-brute",
+        "uid": "da_xg01f1",
+        "title": "Pic annuel de la consommation brute d'électricité (2001 à 2025)",
+        "description": "Historique annuel de la puissance maximale (GW) nécessaire pour couvrir les pics de la consommation brute française.",
+        "publisher": "RTE",
+        "territory": [
+          "France"
+        ],
+        "themes": [
+          "Consommation"
+        ],
+        "keywords": [
+          "Bilan annuel"
+        ],
+        "energies": [],
+        "networks": [],
+        "temporalStep": null,
+        "geography": null,
+        "records": 25,
+        "modified": "2026-02-24T08:44:57+00:00",
+        "fields": [
+          {
+            "name": "date_du_max_conso",
+            "label": "Date_du_max_conso",
+            "type": "date"
+          },
+          {
+            "name": "pic_annuel_consommation",
+            "label": "Pic annuel consommation (GW)",
+            "type": "double"
           }
         ]
       },
@@ -14336,207 +14625,6 @@
         ]
       },
       {
-        "id": "prod-region-annuelle-filiere",
-        "uid": "da_0gdz6i",
-        "title": "Production régionale annuelle par filière (2008 à 2025)",
-        "description": "Production annuelle française définitive d’électricité et de gaz (TWh) par filière et par territoire (région administrative). Suite à un recalcul de l'autoconsommation photovoltaïque, la production photovoltaïque sur les années 2022 à 2024 a augmenté.",
-        "publisher": "NaTran, RTE, Teréga",
-        "territory": [
-          "France"
-        ],
-        "themes": [
-          "Production",
-          "Territoires et régions"
-        ],
-        "keywords": [
-          "Filière",
-          "Tableau de Bord Régional"
-        ],
-        "energies": [],
-        "networks": [],
-        "temporalStep": null,
-        "geography": null,
-        "records": 234,
-        "modified": "2025-05-07T09:47:04+00:00",
-        "fields": [
-          {
-            "name": "annee",
-            "label": "Année",
-            "type": "date"
-          },
-          {
-            "name": "code_insee_region",
-            "label": "Code INSEE région",
-            "type": "text"
-          },
-          {
-            "name": "region",
-            "label": "Région",
-            "type": "text"
-          },
-          {
-            "name": "production_nucleaire",
-            "label": "Production nucléaire (GWh)",
-            "type": "double"
-          },
-          {
-            "name": "production_thermique",
-            "label": "Production thermique (GWh)",
-            "type": "double"
-          },
-          {
-            "name": "production_hydraulique",
-            "label": "Production hydraulique (GWh)",
-            "type": "double"
-          },
-          {
-            "name": "production_eolienne",
-            "label": "Production éolienne (GWh)",
-            "type": "double"
-          },
-          {
-            "name": "production_solaire",
-            "label": "Production solaire (GWh)",
-            "type": "double"
-          },
-          {
-            "name": "production_bioenergies",
-            "label": "Production bioénergies (GWh)",
-            "type": "double"
-          },
-          {
-            "name": "geo_shape_region",
-            "label": "Géo-shape région",
-            "type": "geo_shape"
-          },
-          {
-            "name": "geo_point_region",
-            "label": "Géo-point région",
-            "type": "geo_point_2d"
-          }
-        ]
-      },
-      {
-        "id": "corridor_grd_20_km-nat-grtgaz",
-        "uid": "da_2m8t7p",
-        "title": "Corridor de largeur 20 km de part et d’autre du réseau de distribution de gaz",
-        "description": "Corridor de largeur 20 km de part et d’autre du réseau de distribution de gaz. Ce corridor a été calculé à partir de la donnée « infrastructures de réseau gaz » présent sur la plate-forme ORE . Ce jeu de données reflète la présence d’un réseau de distribution ",
-        "publisher": "NaTran",
-        "territory": [
-          "France"
-        ],
-        "themes": [
-          "Infrastructures",
-          "Territoires et régions"
-        ],
-        "keywords": [
-          "SIG"
-        ],
-        "energies": [],
-        "networks": [],
-        "temporalStep": null,
-        "geography": null,
-        "records": 1,
-        "modified": "2023-10-20T16:05:51+00:00",
-        "fields": [
-          {
-            "name": "geo_point_2d",
-            "label": "Geo Point",
-            "type": "geo_point_2d"
-          },
-          {
-            "name": "geo_shape",
-            "label": "Geo Shape",
-            "type": "geo_shape"
-          },
-          {
-            "name": "objectid",
-            "label": "OBJECTID",
-            "type": "text"
-          },
-          {
-            "name": "type",
-            "label": "TYPE",
-            "type": "text"
-          },
-          {
-            "name": "shape_length",
-            "label": "Shape_Length",
-            "type": "text"
-          },
-          {
-            "name": "shape_area",
-            "label": "Shape_Area",
-            "type": "text"
-          },
-          {
-            "name": "largeur",
-            "label": "LARGEUR",
-            "type": "text"
-          }
-        ]
-      },
-      {
-        "id": "consommation-journaliere-maximale-de-gaz-maille-nationale",
-        "uid": "da_ayrlqk",
-        "title": "Extremas de consommation quotidienne définitive de gaz relevée sur le réseau de NaTran et Teréga",
-        "description": "Ce jeu de données présente la consommation horaire maximale de gaz (en MWh PCS 0°C) par jour à la maille nationale sur le réseau de NaTran et de Teréga. Les données sont définitives. Les consommations maximum sont complétées par les valeurs des températures de",
-        "publisher": "NaTran, Teréga",
-        "territory": [
-          "France"
-        ],
-        "themes": [
-          "Consommation",
-          "Météorologie"
-        ],
-        "keywords": [
-          "Extremas"
-        ],
-        "energies": [],
-        "networks": [],
-        "temporalStep": null,
-        "geography": null,
-        "records": 3195,
-        "modified": "2026-11-10T19:00:58+00:00",
-        "fields": [
-          {
-            "name": "date",
-            "label": "Date",
-            "type": "date"
-          },
-          {
-            "name": "max_conso_grtgaz",
-            "label": "Consommation max GRTgaz (KWh PCS 0°C)",
-            "type": "int"
-          },
-          {
-            "name": "max_conso_terega",
-            "label": "Consommation max Teréga (KWh PCS 0°C)",
-            "type": "int"
-          },
-          {
-            "name": "max_conso_gaz_total",
-            "label": "Consommation max totale de gaz (KWh PCS 0°C)",
-            "type": "int"
-          },
-          {
-            "name": "tmax",
-            "label": "Tmax",
-            "type": "double"
-          },
-          {
-            "name": "tmin",
-            "label": "Tmin",
-            "type": "double"
-          },
-          {
-            "name": "tmoy",
-            "label": "Tmoy",
-            "type": "double"
-          }
-        ]
-      },
-      {
         "id": "registre-garanties-capacite",
         "uid": "da_6tvdv5",
         "title": "Registre des transactions de garanties de capacité",
@@ -14614,120 +14702,6 @@
         ]
       },
       {
-        "id": "nombre-installation-production-stockage-electricite-31122022",
-        "uid": "da_xuhv70",
-        "title": "Nombre d'installations de production et de stockage d'électricité de moins de 36kW par IRIS (au 31 décembre 2022)",
-        "description": "Ce jeu de données présente le nombre d’installations de moins de 36KW par maille géographique IRIS. Il s'agit de l'agrégation des installations ayant une puissance installée ou raccordée de moins de 36KW et ayant le même code IRIS. Dans le cadre de l'arrêté du",
-        "publisher": "RTE, Enedis, EDF SEI, ELD",
-        "territory": [
-          "France"
-        ],
-        "themes": [
-          "Production",
-          "Territoires et régions"
-        ],
-        "keywords": [
-          "Parc"
-        ],
-        "energies": [],
-        "networks": [],
-        "temporalStep": null,
-        "geography": null,
-        "records": 62206,
-        "modified": "2023-02-21T15:51:47+00:00",
-        "fields": [
-          {
-            "name": "codeiris",
-            "label": "codeIRIS",
-            "type": "text"
-          },
-          {
-            "name": "codeinseecommune",
-            "label": "codeINSEEcommune",
-            "type": "text"
-          },
-          {
-            "name": "commune",
-            "label": "commune",
-            "type": "text"
-          },
-          {
-            "name": "code_insee_epci",
-            "label": "Code INSEE EPCI",
-            "type": "text"
-          },
-          {
-            "name": "epci",
-            "label": "EPCI",
-            "type": "text"
-          },
-          {
-            "name": "codedepartement",
-            "label": "codeDepartement",
-            "type": "text"
-          },
-          {
-            "name": "departement",
-            "label": "departement",
-            "type": "text"
-          },
-          {
-            "name": "coderegion",
-            "label": "codeRegion",
-            "type": "int"
-          },
-          {
-            "name": "region",
-            "label": "Région",
-            "type": "text"
-          },
-          {
-            "name": "nbinstallations",
-            "label": "nbInstallations",
-            "type": "int"
-          },
-          {
-            "name": "departement_maj",
-            "label": "Département (Maj)",
-            "type": "text"
-          }
-        ]
-      },
-      {
-        "id": "pic-annuel-conso-brute",
-        "uid": "da_xg01f1",
-        "title": "Pic annuel de la consommation brute d'électricité (2001 à 2025)",
-        "description": "Historique annuel de la puissance maximale (GW) nécessaire pour couvrir les pics de la consommation brute française.",
-        "publisher": "RTE",
-        "territory": [
-          "France"
-        ],
-        "themes": [
-          "Consommation"
-        ],
-        "keywords": [
-          "Bilan annuel"
-        ],
-        "energies": [],
-        "networks": [],
-        "temporalStep": null,
-        "geography": null,
-        "records": 25,
-        "modified": "2026-02-24T08:44:57+00:00",
-        "fields": [
-          {
-            "name": "date_du_max_conso",
-            "label": "Date_du_max_conso",
-            "type": "date"
-          },
-          {
-            "name": "pic_annuel_consommation",
-            "label": "Pic annuel consommation (GW)",
-            "type": "double"
-          }
-        ]
-      },
-      {
         "id": "repartition-des-potentiels-de-methanisation-a-horizon-2050-a-la-maille-regionale",
         "uid": "da_jp6ibw",
         "title": "Répartition des potentiels de méthanisation à horizon 2050 à la maille régionale",
@@ -14774,77 +14748,6 @@
           {
             "name": "centroid",
             "label": "Géo-point",
-            "type": "geo_point_2d"
-          }
-        ]
-      },
-      {
-        "id": "registre-biomethane-region",
-        "uid": "da_wtx831",
-        "title": "Capacités annuelles d'injection de biométhane réservées par région",
-        "description": "Ce jeu de données présente la répartition régionale du nombre et des capacités maximales (MWh) des projets d'injection de biométhane inscrits dans le registre à chaque fin d'année et en fin de trimestre pour l'année en cours sur les réseaux de transport et de ",
-        "publisher": "NaTran",
-        "territory": [
-          "France"
-        ],
-        "themes": [
-          "Production",
-          "Territoires et régions"
-        ],
-        "keywords": [
-          "EnR",
-          "Biogaz"
-        ],
-        "energies": [],
-        "networks": [],
-        "temporalStep": null,
-        "geography": null,
-        "records": 156,
-        "modified": "2019-01-25T13:03:45+00:00",
-        "fields": [
-          {
-            "name": "date",
-            "label": "Date",
-            "type": "date"
-          },
-          {
-            "name": "code_insee_region",
-            "label": "Code INSEE région",
-            "type": "int"
-          },
-          {
-            "name": "region",
-            "label": "Région",
-            "type": "text"
-          },
-          {
-            "name": "nb_sites",
-            "label": "Nombre de sites",
-            "type": "int"
-          },
-          {
-            "name": "nombre_de_projets_sans_ics",
-            "label": "Nombre de projets (sans ICS)",
-            "type": "int"
-          },
-          {
-            "name": "capacite",
-            "label": "Capacité (MWh)",
-            "type": "int"
-          },
-          {
-            "name": "capacite_gwh",
-            "label": "Capacité (GWh)",
-            "type": "double"
-          },
-          {
-            "name": "geo_shape_region",
-            "label": "Géo-shape région",
-            "type": "geo_shape"
-          },
-          {
-            "name": "geo_point_region",
-            "label": "Géo-point région",
             "type": "geo_point_2d"
           }
         ]
@@ -15365,24 +15268,28 @@
         ]
       },
       {
-        "id": "soutirages-regionaux-quotidiens-provisoires-rpt",
-        "uid": "da_fi0h43",
-        "title": "Soutirages régionaux quotidiens provisoires sur le réseau de transport d'électricité (2019 à 2026)",
-        "description": "ATTENTION : les données du 1er mai 2022 au 26 juin 2025 sont surestimées. Les valeurs corrigées sont disponibles dans le jeu de données « consolidées ». Ce jeu de données présente, depuis le 1er janvier 2019, les valeurs provisoires des soutirages des consomma",
-        "publisher": "RTE",
+        "id": "registre-biomethane-region",
+        "uid": "da_wtx831",
+        "title": "Capacités annuelles d'injection de biométhane réservées par région",
+        "description": "Ce jeu de données présente la répartition régionale du nombre et des capacités maximales (MWh) des projets d'injection de biométhane inscrits dans le registre à chaque fin d'année et en fin de trimestre pour l'année en cours sur les réseaux de transport et de ",
+        "publisher": "NaTran",
         "territory": [
           "France"
         ],
         "themes": [
-          "Consommation"
+          "Production",
+          "Territoires et régions"
         ],
-        "keywords": [],
+        "keywords": [
+          "EnR",
+          "Biogaz"
+        ],
         "energies": [],
         "networks": [],
         "temporalStep": null,
         "geography": null,
-        "records": 173731,
-        "modified": "2022-09-01T08:26:23+00:00",
+        "records": 156,
+        "modified": "2019-01-25T13:03:45+00:00",
         "fields": [
           {
             "name": "date",
@@ -15392,7 +15299,7 @@
           {
             "name": "code_insee_region",
             "label": "Code INSEE région",
-            "type": "text"
+            "type": "int"
           },
           {
             "name": "region",
@@ -15400,340 +15307,133 @@
             "type": "text"
           },
           {
-            "name": "secteur_activite_economique",
-            "label": "Secteur activité",
-            "type": "text"
-          },
-          {
-            "name": "code_tension",
-            "label": "Code tension raccordement",
+            "name": "nb_sites",
+            "label": "Nombre de sites",
             "type": "int"
           },
           {
-            "name": "libelle_tension",
-            "label": "Tension raccordement",
-            "type": "text"
-          },
-          {
-            "name": "00h00",
-            "label": "00h00",
-            "type": "double"
-          },
-          {
-            "name": "00h30",
-            "label": "00h30",
-            "type": "double"
-          },
-          {
-            "name": "01h00",
-            "label": "01h00",
-            "type": "double"
-          },
-          {
-            "name": "01h30",
-            "label": "01h30",
-            "type": "double"
-          },
-          {
-            "name": "02h00",
-            "label": "02h00",
-            "type": "double"
-          },
-          {
-            "name": "02h30",
-            "label": "02h30",
-            "type": "double"
-          },
-          {
-            "name": "03h00",
-            "label": "03h00",
-            "type": "double"
-          },
-          {
-            "name": "03h30",
-            "label": "03h30",
-            "type": "double"
-          },
-          {
-            "name": "04h00",
-            "label": "04h00",
-            "type": "double"
-          },
-          {
-            "name": "04h30",
-            "label": "04h30",
-            "type": "double"
-          },
-          {
-            "name": "05h00",
-            "label": "05h00",
-            "type": "double"
-          },
-          {
-            "name": "05h30",
-            "label": "05h30",
-            "type": "double"
-          },
-          {
-            "name": "06h00",
-            "label": "06h00",
-            "type": "double"
-          },
-          {
-            "name": "06h30",
-            "label": "06h30",
-            "type": "double"
-          },
-          {
-            "name": "07h00",
-            "label": "07h00",
-            "type": "double"
-          },
-          {
-            "name": "07h30",
-            "label": "07h30",
-            "type": "double"
-          },
-          {
-            "name": "08h00",
-            "label": "08h00",
-            "type": "double"
-          },
-          {
-            "name": "08h30",
-            "label": "08h30",
-            "type": "double"
-          },
-          {
-            "name": "09h00",
-            "label": "09h00",
-            "type": "double"
-          },
-          {
-            "name": "09h30",
-            "label": "09h30",
-            "type": "double"
-          },
-          {
-            "name": "10h00",
-            "label": "10h00",
-            "type": "double"
-          },
-          {
-            "name": "10h30",
-            "label": "10h30",
-            "type": "double"
-          },
-          {
-            "name": "11h00",
-            "label": "11h00",
-            "type": "double"
-          },
-          {
-            "name": "11h30",
-            "label": "11h30",
-            "type": "double"
-          },
-          {
-            "name": "12h00",
-            "label": "12h00",
-            "type": "double"
-          },
-          {
-            "name": "12h30",
-            "label": "12h30",
-            "type": "double"
-          },
-          {
-            "name": "13h00",
-            "label": "13h00",
-            "type": "double"
-          },
-          {
-            "name": "13h30",
-            "label": "13h30",
-            "type": "double"
-          },
-          {
-            "name": "14h00",
-            "label": "14h00",
-            "type": "double"
-          },
-          {
-            "name": "14h30",
-            "label": "14h30",
-            "type": "double"
-          },
-          {
-            "name": "15h00",
-            "label": "15h00",
-            "type": "double"
-          },
-          {
-            "name": "15h30",
-            "label": "15h30",
-            "type": "double"
-          },
-          {
-            "name": "16h00",
-            "label": "16h00",
-            "type": "double"
-          },
-          {
-            "name": "16h30",
-            "label": "16h30",
-            "type": "double"
-          },
-          {
-            "name": "17h00",
-            "label": "17h00",
-            "type": "double"
-          },
-          {
-            "name": "17h30",
-            "label": "17h30",
-            "type": "double"
-          },
-          {
-            "name": "18h00",
-            "label": "18h00",
-            "type": "double"
-          },
-          {
-            "name": "18h30",
-            "label": "18h30",
-            "type": "double"
-          },
-          {
-            "name": "19h00",
-            "label": "19h00",
-            "type": "double"
-          },
-          {
-            "name": "19h30",
-            "label": "19h30",
-            "type": "double"
-          },
-          {
-            "name": "20h00",
-            "label": "20h00",
-            "type": "double"
-          },
-          {
-            "name": "20h30",
-            "label": "20h30",
-            "type": "double"
-          },
-          {
-            "name": "21h00",
-            "label": "21h00",
-            "type": "double"
-          },
-          {
-            "name": "21h30",
-            "label": "21h30",
-            "type": "double"
-          },
-          {
-            "name": "22h00",
-            "label": "22h00",
-            "type": "double"
-          },
-          {
-            "name": "22h30",
-            "label": "22h30",
-            "type": "double"
-          },
-          {
-            "name": "23h00",
-            "label": "23h00",
-            "type": "double"
-          },
-          {
-            "name": "23h30",
-            "label": "23h30",
-            "type": "double"
-          },
-          {
-            "name": "nombre_de_points_de_soutirage",
-            "label": "Nb points de soutirage",
+            "name": "nombre_de_projets_sans_ics",
+            "label": "Nombre de projets (sans ICS)",
             "type": "int"
           },
           {
-            "name": "energie_journaliere",
-            "label": "Energie journalière (MWh)",
+            "name": "capacite",
+            "label": "Capacité (MWh)",
+            "type": "int"
+          },
+          {
+            "name": "capacite_gwh",
+            "label": "Capacité (GWh)",
             "type": "double"
           },
           {
-            "name": "qualite",
-            "label": "Qualité",
-            "type": "text"
+            "name": "geo_shape_region",
+            "label": "Géo-shape région",
+            "type": "geo_shape"
+          },
+          {
+            "name": "geo_point_region",
+            "label": "Géo-point région",
+            "type": "geo_point_2d"
           }
         ]
       },
       {
-        "id": "rodp-commune",
-        "uid": "da_9k187h",
-        "title": "RODP Communal (Réseau de Transport NaTran)",
-        "description": "Ce jeu de données présente, pour les communes , les informations relatives aux redevances d’occupation du domaine public (RODP) dues par NaTran pour le passage de ses canalisations de gaz sur le domaine public. Il comprend pour chaque commune le linéaire de ré",
-        "publisher": "NaTran",
+        "id": "odre-prod-grdgrt-operateur-def",
+        "uid": "da_nnw9eb",
+        "title": "Production Quotidienne Consolidée de Biométhane sur le réseau de transport et de distribution par Opérateur",
+        "description": "Ce jeu de données représente la production quotidienne de biométhane par opérateur. Ces données sont des données redressées/corrigées et représente la meilleure vision de la production des sites. Les valeurs des mois précédentes peuvent donc être corrigées à p",
+        "publisher": "NaTran, Teréga",
         "territory": [],
         "themes": [
-          "Infrastructures",
+          "Production",
           "Territoires et régions"
         ],
-        "keywords": [],
+        "keywords": [
+          "Biogaz",
+          "EnR"
+        ],
         "energies": [],
         "networks": [],
         "temporalStep": null,
         "geography": null,
-        "records": 18122,
-        "modified": "2025-10-23T09:31:25+00:00",
+        "records": 24320,
+        "modified": "2026-10-20T09:30:40.335000+00:00",
+        "fields": [
+          {
+            "name": "date",
+            "label": "Date",
+            "type": "date"
+          },
+          {
+            "name": "grx_demandeur",
+            "label": "Opérateur",
+            "type": "text"
+          },
+          {
+            "name": "statut",
+            "label": "Statut",
+            "type": "text"
+          },
+          {
+            "name": "operateur_de_transport",
+            "label": "Opérateur de transport",
+            "type": "text"
+          },
+          {
+            "name": "production_biomethane",
+            "label": "Production de biométhane (MWh - 0°C PCS)",
+            "type": "double"
+          }
+        ]
+      },
+      {
+        "id": "cccg-nat-annuel-def",
+        "uid": "da_nvawll",
+        "title": "Consommation annuelle de gaz des Centrales à Cycle Combiné Gaz (zone NaTran)",
+        "description": "Ce jeu de données présente les consommations annuelles de gaz (MWh) des Centrales à Cycle Combiné Gaz raccordées au réseau de transport de NaTran,. Les données sont des mesures brutes de quantités livrées de gaz aux points de livraison industriels. Les données",
+        "publisher": "NaTran",
+        "territory": [
+          "France"
+        ],
+        "themes": [
+          "Consommation"
+        ],
+        "keywords": [
+          "CCCG",
+          "BIlan Gaz"
+        ],
+        "energies": [],
+        "networks": [],
+        "temporalStep": null,
+        "geography": null,
+        "records": 18,
+        "modified": "2021-08-17T12:57:28+00:00",
         "fields": [
           {
             "name": "annee",
             "label": "Année",
+            "type": "date"
+          },
+          {
+            "name": "operateur",
+            "label": "Opérateur",
             "type": "text"
           },
           {
-            "name": "code_insee_commune",
-            "label": "Code Insee commune",
+            "name": "statut_de_la_donnee",
+            "label": "Statut de la donnée",
             "type": "text"
           },
           {
-            "name": "nom_commune",
-            "label": "Nom commune",
-            "type": "text"
-          },
-          {
-            "name": "type",
-            "label": "Type",
-            "type": "text"
-          },
-          {
-            "name": "indice",
-            "label": "Indice",
+            "name": "consommation_annuelle_en_mwh",
+            "label": "Consommation annuelle en MWh",
             "type": "double"
           },
           {
-            "name": "longueur_reseau",
-            "label": "Longueur (m)",
-            "type": "double"
-          },
-          {
-            "name": "montant_rodp_eur",
-            "label": "Montant RODP (€)",
-            "type": "double"
-          },
-          {
-            "name": "geom",
-            "label": "geom",
-            "type": "geo_shape"
-          },
-          {
-            "name": "centroid",
-            "label": "centroid",
-            "type": "geo_point_2d"
+            "name": "consommation_annuelle_en_kwh",
+            "label": "Consommation annuelle en KWh",
+            "type": "int"
           }
         ]
       }
@@ -15741,7 +15441,7 @@
     "themes": [
       {
         "name": "Production",
-        "count": 52
+        "count": 53
       },
       {
         "name": "Territoires et régions",
@@ -15753,7 +15453,7 @@
       },
       {
         "name": "Infrastructures",
-        "count": 12
+        "count": 11
       },
       {
         "name": "Marchés",
@@ -15780,7 +15480,7 @@
     "publishers": [
       {
         "name": "RTE",
-        "count": 37
+        "count": 36
       },
       {
         "name": "NaTran",
@@ -15788,7 +15488,7 @@
       },
       {
         "name": "NaTran, Teréga",
-        "count": 11
+        "count": 12
       },
       {
         "name": "RTE, Enedis, EDF SEI, ELD",
